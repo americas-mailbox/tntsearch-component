@@ -1,0 +1,28 @@
+{
+  "name": "amb/tntsearch-component",
+  "type": "library",
+  "description": "Laminas component for TNTSearch",
+  "keywords": [
+    "TNTSearch",
+    "Laminas"
+  ],
+  "license": "MIT",
+  "config": {
+    "sort-packages": true
+  },
+  "require": {
+    "php": "^8.0",  
+    "iampersistent/config-value-component": "^1.1",
+    "teamtnt/tntsearch": "^3.0"
+  },
+  "require-dev": {
+    "codeception/codeception": "^5.0",
+    "codeception/module-asserts": ">1.0.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "AMB\\TNTSearch\\": "src/"
+    }
+  }
+}
