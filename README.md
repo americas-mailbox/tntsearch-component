@@ -1,0 +1,1 @@
+# tntsearch-component
