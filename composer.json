@@ -13,7 +13,7 @@
   "require": {
     "php": "^8.0",  
     "iampersistent/config-value-component": "^1.1",
-    "teamtnt/tntsearch": "^3.0"
+    "teamtnt/tntsearch": "^v3.0"
   },
   "require-dev": {
     "codeception/codeception": "^5.0",
